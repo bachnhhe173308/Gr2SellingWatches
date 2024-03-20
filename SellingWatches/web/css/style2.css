@@ -1,0 +1,105 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 17, 2024, 9:31:40 PM
+    Author     : pc
+*/
+.container{
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+}
+.header, .menu, .main, .footer {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header {
+    background-image: url(../images/Post/segg.jpg);
+    height: 158px;
+}
+.header h1{
+    font-size: 62px;
+    color: whitesmoke;
+    margin: 0;
+    padding-left: 160px;
+    padding-top: 40px;
+}
+.menu{
+    background: url(../images/Post/menu.jpg);
+    height: 32px;
+}
+.menu a{
+    color: white;
+    padding-left: 160px;
+    line-height: 32px;
+}
+.main{
+    background: white ;
+    height: 100%;
+    display: flex;
+}
+.left{
+    width: 70%;
+    height: 100%;
+    padding-top: 20px;
+    padding-left: 160px;
+
+}
+.content{
+    width: 50%;
+}
+.right{
+    width: 30%;
+    height: 100%;
+    padding-top: 20px;
+    padding-left: 80px;
+
+}
+.footer{
+    background: url(../images/Post/menu.jpg);
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 20%; /* Độ rộng cố định */
+    left: 40%; /* Đẩy footer ra giữa */
+    display: flex;
+    justify-content: center;
+}
+img.logo {
+    max-width: 600px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+
+
